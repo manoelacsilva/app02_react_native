@@ -1,11 +1,10 @@
 import { Text, View, SafeAreaView } from 'react-native';
+import Comp1 from './src/components/Comp1';
 
 function App() {
   return (
     <SafeAreaView>
-      <Text>
-        Olá, Mundo
-      </Text>
+      <Comp1 />
     </SafeAreaView>
   );
 }
