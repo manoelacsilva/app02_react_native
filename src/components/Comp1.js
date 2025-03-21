@@ -1,11 +1,15 @@
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 
 function Comp1(){
     return (
-        <Text>
-            {/* Olá {'\n'}Mundo */}
-            Componente 1
-        </Text>
+        <View>
+            <Text>
+                Olá, mundo! {'\n'}
+            </Text>
+            <Text>
+                Este é meu Componente 1.
+            </Text>
+        </View>
     )
 }
 
